@@ -2,13 +2,6 @@
   "name": "nodejs-mobile-cordova",
   "version": "0.4.3",
   "description": "Node.js for Mobile Apps Cordova plugin",
-  "cordova": {
-    "id": "nodejs-mobile-cordova",
-    "platforms": [
-      "ios",
-      "android"
-    ]
-  },
   "keywords": [
     "cordova",
     "mobile",
@@ -21,10 +14,8 @@
   ],
   "author": "janeasystems",
   "license": "MIT",
-  "dependencies": {
-    "nodejs-mobile-gyp": "^0.3.1",
-    "tar.gz2": "^1.0.0",
-    "xcode": "^2.0.0"
+  "scripts": {
+    "unzip": "node unzip.js"
   },
   "homepage": "https://code.janeasystems.com/nodejs-mobile",
   "repository": {
@@ -33,13 +24,5 @@
   },
   "bugs": {
     "url": "https://github.com/janeasystems/nodejs-mobile/issues"
-  },
-  "engines": {
-    "cordovaDependencies": {
-      ">=0.1.0": {
-        "cordova-ios": ">=4.4.0",
-        "cordova-android": ">=6.2.1"
-      }
-    }
   }
 }
